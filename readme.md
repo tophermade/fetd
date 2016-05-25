@@ -1,0 +1,1 @@
+Static html & css page set, sprinkling of js.

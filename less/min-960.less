@@ -1,0 +1,139 @@
+.inner{
+    margin: auto;
+    max-width: 960px;
+}
+
+#header{
+    .shadow(none);
+}
+
+    #logo{
+        z-index: 300;
+        margin: auto;
+    }
+
+    #search{
+        float: left;
+    }
+    
+    #search-trigger{
+        background-position: center left;
+        background-size:33%;
+    }
+
+    #phone-number{
+        margin-right:0;
+    }
+
+
+
+#navigation{
+    background: #fff;
+    border-top: 1px solid #ECECEC;
+}
+
+    .utility-menu{
+        position: absolute;
+        top: -75px;
+        background: none;
+        left: 155px;
+        right: 155px;
+        height: 0;
+
+        li{
+            padding-right: 25px;
+        }
+
+        li:nth-of-type(3n+1){
+            float: right;
+            padding-left:25px;
+            padding-right: 0;
+        }
+    }
+
+    .main-menu{
+        position: relative;
+        float: none;
+        margin: auto;
+        width: 100%;
+        .shadow(none);
+        padding-right: 150px;
+        box-sizing: border-box;
+
+        li{
+            float: left;
+            width: 14.2%;
+            padding:0;
+            margin:0;
+        }
+        >li.has-sub:hover>a{
+            background: @blue;
+            color: #fff;
+            .shadow;
+        }
+
+        a{
+            .true(54px);
+            font-size: 18px;
+        }
+
+        ul{
+            left:0;
+
+            li{
+                width: 100%;
+            }
+
+            a{
+                float: none;
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    .jump-feature{
+        right:0;
+
+        p{
+            right:0;
+            width: 200px;
+            bottom: -490px;
+            font-size: 18px;
+
+            .button{
+                padding: 10px 0;
+            }
+
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+
+
+
+.hero{
+    .inner{
+        padding-top: 150px;
+        height: 310px;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+}
+
+
+
+.introduction{
+    padding: 100px 0;
+}
+
+
+
+.quotation{
+    padding: 100px 0;
+    font-size: 24px;
+}
+
